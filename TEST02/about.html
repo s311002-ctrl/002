@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>02吳羽晨</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #74115b;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(38, 155, 201);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #5c5599;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #8a1cbd;
+  height: 1150px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #e8ffa82d;
+  padding: 10px;
+  text-align: center;
+  color: rgb(75, 113, 161);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2><span style="color:rgb(156, 102, 218);">關於我</h2></span>
+<p><span style="color:rgb(12, 122, 31);">我來自電商二</p></span>
+<p><span style="color:rgb(138, 182, 218);">生日及星座:05/08 金牛座</span>
+  <span style="color:hsl(201, 9%, 35%);">畢業學校:南崗國中</span>
+  <span style="color:rgb(90, 159, 216);">個人拿手項目 烘焙
+  <span style="color:rgb(185, 197, 207);">期待:順利畢業</span></p>
+
+<header>
+  <h2>南投高中</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="introduce.html">特色介紹頁</a></li>
+      <li><a href="about.html">關於我們</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>電商二 02 吳羽晨</h1>
+    <p><span style="color:rgb(250, 250, 250);">第一次使用程式碼教學或工具網站的心得，通常會經歷從「迷茫」到「驚喜」的過程。這裡為你準備了一段既真誠又具備技術感的初體驗心得</p></span>
+    <p><img style="width:100%;" src="03.png"alt="這是我"></p>
+    <p><span style="color:rgb(255, 255, 255);">南投高中，成就未來。</p></span>
+    <p></p>
+    <p></p>
+    <p></p>
+  </article>
+</section>
+
+<footer>
+  <p>©版權所有南投高中電子商務科學生吳羽晨.轉載請註明出處!</p>
+</footer>
+
+</body>
+</html>
+
